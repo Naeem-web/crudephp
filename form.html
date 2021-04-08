@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+</head>
+<body>
+	<form method="POST" action="students.php">
+		Name: <input type="text" name="name"> <br><br>
+		email:<input type="text" name="email"><br><br>
+		Roll:<input type="text" name="roll"><br><br>
+		<input type="submit" name="submit" value="submit">
+	</form><br><br><br><br>
+
+
+	<a href="display.php">VIEW DATA</a>
+	<br><br>
+	<form action="update.php" method="POST">
+		Roll:<input type="data" name="roll"><br><br>
+		Enter New Name:<input type="text" name="name"><br><br>
+		<input type="submit" name="submit" value="update">
+	</form>
+	<br>
+	<form action="Delete.php" method="POST">
+		Roll:<input type="data" name="roll"><br><br>
+
+		<input type="submit" name="submit" value="Delete">
+	</form>
+	<br>
+	<form action="search.php" method="POST">
+		Roll:<input type="data" name="roll"><br><br>
+		<input type="submit" name="submit" value="Search">
+	</form>
+	
+
+</body>
+</html>
